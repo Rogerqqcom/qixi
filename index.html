@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="icon" type="image/x-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA2klEQVQ4T62TUQ6CMAyG2/GCByAeR7iSxmfgmahHch7HcAB5YSXb2GBlmCW6t6Xtt7/tP4QfD7r6Pu9KwKx29+Jzrtbs/nB/xmIGYIr1wcwnAY0BIBYrhqucAY8akBrejSJqBQjaix2HS4MraVZFeOR83Y05QCwhZbzyD4C8KxWIUiD6DaQ8beej7BDf+a0RiCcASG1FKqKXGSLzwbLGbzJorPQKzeYDAPdCDDL7YwPwhlrcyNuxK6WxdcWBgohtNwBu730AtzaTvX7Mz4C3G3wuJjsJkOIFnTMBCHFmkktRl00AAAAASUVORK5CYII=" />
-  <title>To 小美！—— From 小陆！</title>
+  <title>To 珊珊！—— From 小钟！</title>
   <style>
     * {
       margin: 0;
@@ -306,7 +306,7 @@
         }
         backgroundImage = backgroundImage.replace(/,$/gi, ');"');
         let style = '"text-fill-color:transparent;background-clip:text;background-size:200% 100%;left:' + (width / 2 - 50) + 'px;top:' + (height / 2 - 50) + 'px;background-image: linear-gradient(to right,' + backgroundImage
-        document.getElementsByTagName('body')[0].innerHTML += '<p id="text_ta" class="text_ta" style=' + style + '>我喜欢你，刘南美！</p>'
+        document.getElementsByTagName('body')[0].innerHTML += '<p id="text_ta" class="text_ta" style=' + style + '>我喜欢你，林珊珊！<br/>我喜欢你甜美的声音！<br/>你是一生中遇到最美的女孩！<br/>我喜欢你的笑容！<br/>你笑起来敲级可爱(*╹▽╹*)！<br/>我是真心喜欢你！</p>'
         let element = document.getElementById('text_ta')
         setTimeout(function () {
           element.style.opacity = '1'
@@ -636,16 +636,16 @@
     end(){
       document.getElementById('me').style.opacity = '0'
       console.log('ending');
-       let width = document.documentElement.clientWidth
-        let height = document.documentElement.clientHeight
-        let backgroundImage = ""
-        for (let i = 0; i < 10; i++) {
-          backgroundImage += "#" + Math.random().toString(16).substr(-6) + ","
-        }
-        backgroundImage = backgroundImage.replace(/,$/gi, ');"');
-        let style = '"text-fill-color:transparent;background-clip:text;background-size:200% 100%;opacity: 1;font-size:80px;left:' + 100 + 'px;top:' + (height / 2 - 50) + 'px;background-image: linear-gradient(to right,' + backgroundImage
-        document.getElementsByTagName('body')[0].innerHTML += '<div class="text_ta" style=' + style + '>Ending：感谢遇见你！<br/>希望往后的日子里都有你！❥(^_-)</div>'
-        console.log('ending2');
+      let width = document.documentElement.clientWidth
+      let height = document.documentElement.clientHeight
+      let backgroundImage = ""
+      for (let i = 0; i < 10; i++) {
+        backgroundImage += "#" + Math.random().toString(16).substr(-6) + ","
+      }
+      backgroundImage = backgroundImage.replace(/,$/gi, ');"');
+      let style = '"text-fill-color:transparent;background-clip:text;background-size:200% 100%;opacity: 1;font-size:80px;left:' + 100 + 'px;top:' + (height / 2 - 50) + 'px;background-image: linear-gradient(to right,' + backgroundImage
+      document.getElementsByTagName('body')[0].innerHTML += '<div class="text_ta" style=' + style + '>都看到这里了，心动了嘛(*▽*)！<br/>这是我精心为你打造的哦~<br/>我叫钟广喜，珊珊希望往后的日子里都有你！❥(^_-)</div>'
+      console.log('ending2');
 
     }
   }
